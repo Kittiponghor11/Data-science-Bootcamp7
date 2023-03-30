@@ -26,6 +26,11 @@ if(food == 1){
 }
 print("Would you like to order anything else?")
 choice <- readline("Yes or No : ")
+  
+  while(choice != "Yes" & choice != "No"){
+      print("Would you like to order anything else?")
+      choice <- readline("Yes or No : ") 
+    }
 }
 
 print(paste("The total amount is ",total,"baht"))
