@@ -5,3 +5,4 @@ All my data projects in the bootcamp
 - Programming in R
 - Essential Statistics
 - Essential ML
+- Python
